@@ -1,2 +1,2 @@
 # skiplist
-A tiny k-v database
+一个基于跳表的轻量级kv存储引擎
