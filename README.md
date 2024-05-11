@@ -7,35 +7,35 @@
 
 在terminal输入start_stress_test.sh进行压力测试
 
-#项目中文件
-*main.cpp 压力测试代码
+# 项目中文件
+* main.cpp 压力测试代码
 
-*skiplist.h 跳表实现
+* skiplist.h 跳表实现
 
-*README.md 项目介绍
+* README.md 项目介绍
 
-#文件接口
-*createNode(K key, V value,int level);//创建节点
+# 文件接口
+* createNode(K key, V value,int level);//创建节点
 
-*getRandomLevel();    //获得节点层级
+* getRandomLevel();    //获得节点层级
 
-*insertNode(K k,V v);    //插入节点
+* insertNode(K k,V v);    //插入节点
 
-*searchKey(K key);    //搜索节点
+* searchKey(K key);    //搜索节点
 
-*deleteNode(K key);   //删除节点
+* deleteNode(K key);   //删除节点
 
-*showList();    //展示节点
+* showList();    //展示节点
 
-*dumpFile();    //持久化文件，即存入磁盘
+* dumpFile();    //持久化文件，即存入磁盘
 
-*loadFile();    //从磁盘文件加载数据
+* loadFile();    //从磁盘文件加载数据
 
-*clear();  //清空跳表
+* clear();  //清空跳表
 
-*size();    //获得当前节点个数
+* size();    //获得当前节点个数
 
-#压力测试结果
+# 压力测试结果
 
 |插入数据规模（万条）|耗时|
 |---|---|
